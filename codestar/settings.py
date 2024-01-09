@@ -32,7 +32,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-ilswh-poeticsociety-944midrm5b7.ws-eu107.gitpod.io','.herokuapp.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -91,8 +90,8 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeanyapp.com",
-    "https://*.herokuapp.com"
+    "https://8000-ilswh-poeticsociety-944midrm5b7.ws-eu107.gitpod.io",
+    "https://poetic-society-f2599d0af047.herokuapp.com"
 ]
 
 # Password validation

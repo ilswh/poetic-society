@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def my_blog(request):
     return HttpResponse("Hello, Blog!")
+
+def test_route(request):
+    return HttpResponse("Test Route!")

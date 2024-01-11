@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% for poem in poems %}
+    title: {{ poem.title }}<br>
+    author: {{ poem.author }}<br>
+    {% if poem.created_on|date:"U" == poem.updated_on|date:"U" %}
+        added: {{ poem.created_on }}<br>
+    {% else %}
+        added: {{ poem.created_on }}<br>
+        updated: {{ poem.updated_on }}<br>
+    {% endif %}
+    poem: {{ poem.content }}<br><br>
+{% endfor %}
+
+{% endblock content %}

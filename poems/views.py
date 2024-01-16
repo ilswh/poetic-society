@@ -12,10 +12,10 @@ def view_poems(request):
     return render(request, template, context)
 
 def poem_detail(request):
-    queryset = Post.objects.filter(status=1)
+    queryset = Poem.objects.filter(status=1)
     poem = get_object_or_404(queryset)
-    comments = post.comments.all().order_by("-created_on")
-    comment_count = post.comments.filter(approved=True).count()
+    comments = poem.comments.all().order_by("-created_on")
+    comment_count = poem.comments.filter(approved=True).count()
     if request.method == "POST":
         comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
@@ -52,7 +52,7 @@ def comment_edit(request, slug, comment_id):
 
         if comment_form.is_valid() and comment.author == request.user:
             comment = comment_form.save(commit=False)
-            comment.post = post
+            comment.poem = poem
             comment.approved = False
             comment.save()
             messages.add_message(request, messages.SUCCESS, 'Comment Updated!')

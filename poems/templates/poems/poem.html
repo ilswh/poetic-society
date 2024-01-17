@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row my-5">
+    <div class="col-12">
+        <h2>{{ poem.title }}</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-6 col-lg-4">
+
+        by: {{ poem.author }}<br>
+        Added: {{ poem.created_on|date:"d F, Y" }}<br>
+        {% if poem.created_on|date:"U" != poem.updated_on|date:"U" %}
+            Updated: {{ poem.updated_on|date:"d F, Y" }}<br>
+        {% endif %}
+        <br><br>
+        {{ poem.content }}
+
+    </div>
+</div>
+
+{% endblock %}

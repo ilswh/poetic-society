@@ -1,17 +1,29 @@
 {% extends "base.html" %}
 {% block content %}
 
-{% for poem in poems %}
-    title: {{ poem.title }}<br>
-    author: {{ poem.author }}<br>
-    {% if poem.created_on|date:"U" == poem.updated_on|date:"U" %}
-        added: {{ poem.created_on }}<br>
-    {% else %}
-        added: {{ poem.created_on }}<br>
-        updated: {{ poem.updated_on }}<br>
-    {% endif %}
-    poem: {{ poem.content }}<br><br>
-    comment: {{ poem.comment }}<br>
-{% endfor %}
+<div class="row my-5">
+    <div class="col-12">
+        <h2>Poetic Society Poems</h2>
+    </div>
+</div>
 
-{% endblock content %}
+<div class="row">
+    <!-- loop through each poem -->
+    {% for poem in poems %}
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center shadow m-3">
+                <div class="card-header text-bg-dark">
+                    author: {{ poem.author }}
+                </div>
+                <div class="card-body">
+                    {{ poem.title }}
+                </div>
+                <div class="card-footer text-bg-dark text-center">
+                    <a href="{% url 'view_poem' poem.id %}" class="btn btn-success">View Poem</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

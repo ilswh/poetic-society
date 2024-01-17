@@ -11,9 +11,7 @@ def view_poems(request):
     }
     return render(request, template, context)
 
-def poem_detail(request):
-    queryset = Poem.objects.filter(status=1)
-    poem = get_object_or_404(queryset)
+def view_comments(request):
     comments = poem.comments.all().order_by("-created_on")
     comment_count = poem.comments.filter(approved=True).count()
     if request.method == "POST":
@@ -21,7 +19,7 @@ def poem_detail(request):
         if comment_form.is_valid():
             comment = comment_form.save(commit=False)
             comment.author = request.user
-            comment.post = post
+            comment.poem = poem
             comment.save()
             messages.add_message(
                 request, messages.SUCCESS,
@@ -30,9 +28,7 @@ def poem_detail(request):
     
     comment_form = CommentForm()
 
-    return render(
-        request,
-        "poems/poems.html",
+    return render(request,
         {
             "poem": poem,
             "comments": comments,
@@ -42,11 +38,11 @@ def poem_detail(request):
     )
 
 
-def comment_edit(request, slug, comment_id):
+def edit_comment(request, comment_id):
     if request.method == "POST":
 
         queryset = Post.objects.filter(status=1)
-        post = get_object_or_404(queryset, slug=slug)
+        post = get_object_or_404(queryset)
         comment = get_object_or_404(Comment, pk=comment_id)
         comment_form = CommentForm(data=request.POST, instance=comment)
 
@@ -60,10 +56,10 @@ def comment_edit(request, slug, comment_id):
             messages.add_message(request, messages.ERROR,
                                  'Error updating comment!')
 
-    return HttpResponseRedirect(reverse('poem_detail', args=[slug]))
+    return HttpResponseRedirect(reverse('poem_detail'))
 
 
-def comment_delete(request, comment_id):
+def delete_comment(request, comment_id):
     queryset = Post.objects.filter(status=1)
     poem = get_object_or_404(queryset)
     comment = get_object_or_404(Comment, pk=comment_id)
@@ -75,4 +71,4 @@ def comment_delete(request, comment_id):
         messages.add_message(request, messages.ERROR,
                              'You can only delete your own comments!')
 
-    return HttpResponseRedirect(reverse('poem_detail', args=[slug]))
+    return HttpResponseRedirect(reverse('poem_detail'))

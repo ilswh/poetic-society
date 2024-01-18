@@ -13,13 +13,3 @@ class Poem(models.Model):
 
     def __str__(self):
         return self.title
-
-class Comment(models.Model):
-    poem = models.ForeignKey(Poem, on_delete=models.CASCADE, related_name="comments")
-    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="commenter")
-    body = models.TextField()
-    approved = models.BooleanField(default=False)
-    created_on = models.DateTimeField(auto_now_add=True)
-
-    def __str__(self):
-        return f"Comment {self.body} by {self.author}"

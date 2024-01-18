@@ -46,6 +46,31 @@ def add_poem(request):
     }
     return render(request, template, context)
 
+
+def edit_poem(request, poem_id):
+    """
+    A view to edit an existing poem via the front-end.
+    """
+    poem = get_object_or_404(Poem, id=poem_id)
+    if request.user != poem.author:
+        messages.error(request, "Access denied. Please try again")
+        return redirect(view_poem, poem_id=poem_id)
+    form = PoemForm(request.POST or None, instance=poem)
+    if request.method == "POST":
+        if form.is_valid():
+            form.instance.author = request.user
+            form.save()
+            messages.success(request, "Poem Updated!")
+            return redirect(view_poem, poem_id=poem_id)
+        messages.error(request, "Error: Please try again")
+    template = "poems/edit_poem.html"
+    context = {
+        "poem": poem,
+        "form": form,
+    }
+    return render(request, template, context)
+
+
 def view_comments(request):
     """
     A view to display comments.

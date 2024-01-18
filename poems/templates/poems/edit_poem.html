@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row my-5">
+    <div class="col-12">
+        <h2>Edit Poem</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-6 col-lg-4">
+
+        <form action="{% url 'edit_poem' poem.id %}" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-success">Edit Poem</button>
+            <a href="{{ request.META.HTTP_REFERER }}" class="btn btn-danger">Cancel</a>
+        </form>
+
+    </div>
+</div>
+
+{% endblock %}

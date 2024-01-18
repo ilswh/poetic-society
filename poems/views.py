@@ -71,6 +71,19 @@ def edit_poem(request, poem_id):
     return render(request, template, context)
 
 
+def delete_poem(request, poem_id):
+    """
+    A view to delete an existing poem via the front-end.
+    """
+    poem = get_object_or_404(Poem, id=poem_id)
+    if request.user != poem.author:
+        messages.error(request, "Access denied. Please try again")
+        return redirect(view_poem, poem_id=poem_id)
+    poem.delete()
+    messages.success(request, "Poem deleted.")
+    return redirect("poems")
+
+
 def view_comments(request):
     """
     A view to display comments.

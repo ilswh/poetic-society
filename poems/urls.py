@@ -19,7 +19,5 @@ urlpatterns = [
 		views.delete_comment,
 		name='comment_delete'
 	),
-	path(
-		"accounts/", 
-		include("allauth.urls")),
+	 path("accounts/", include("allauth.urls")),
 ]

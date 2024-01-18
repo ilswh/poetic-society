@@ -39,17 +39,14 @@
                             <a class="nav-link" href="{% url 'add_poem' %}">Add Poem</a>
                         </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{% if request.path == logout_url %}active{% endif %}" 
-                                href="{% url 'account_logout' %}">Logout</a>
+                                <a href="{% url 'account_logout' %}" class="nav-link {% if request.path == logout_url %}active{% endif %}">Logout</a>
                             </li>
                         {% else %}
                             <li class="nav-item">
-                                <a class="nav-link" href="{% if request.path == login_url %}active{% endif %}" 
-                                href="{% url 'account_signup' %}">Login</a>
+                                <a href="{% url 'account_login' %}" class="nav-link {% if request.path == login_url %}active{% endif %}">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{% if request.path == register_url %}active{% endif %}"  
-                                href="{% url 'account_login' %}">Register</a>
+                                <a href="{% url 'account_signup' %}" class="nav-link {% if request.path == register_url %}active{% endif %}">Register</a>
                             </li>
                         {% endif %}
                     </ul>
@@ -57,6 +54,18 @@
             </div>
         </nav>
     </header>
+
+    {% if messages %}
+        <section id="alerts">
+            {% for msg in messages %}
+                <!-- all django message tags mirror bootstrap, except error/danger -->
+                <aside class="alert {% if msg.tags == 'error' %}alert-danger{% else %}alert-{{ msg.tags }}{% endif %} alert-dismissible text-center" role="alert">
+                    <h3>{{ msg }}</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </aside>
+            {% endfor %}
+        </section>
+    {% endif %}
 
     <!-- main -->
     <main class="container">

@@ -135,9 +135,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Device | Home | View Poem | Registrate | Login | Add Poem | Logout | Contact | Notes |
 | --- | --- | --- | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-viewpoem.png) | ![screenshot](documentation/responsive-mobile-registrate.png) | ![screenshot](documentation/responsive-mobile-login.png) |  ![screenshot](documentation/responsive-mobile-addpoem.png) |  ![screenshot](documentation/responsive-mobile-addpoem.png) |  ![screenshot](documentation/responsive-mobile-logout.png)  ![screenshot](documentation/responsive-mobile-contact.png) || Works as expected |
-
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-viewpoem.png) | ![screenshot](documentation/responsive-tablet-registrate.png) | ![screenshot](documentation/responsive-tablet-login.png) |  ![screenshot](documentation/responsive-tablet-addpoem.png) |  ![screenshot](documentation/responsive-tablet-addpoem.png) |  ![screenshot](documentation/responsive-tablet-logout.png)  ![screenshot](documentation/responsive-tablet-contact.png) || Works as expected |
-
 | Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-viewpoem.png) | ![screenshot](documentation/responsive-desktop-registrate.png) | ![screenshot](documentation/responsive-desktop-login.png) |  ![screenshot](documentation/responsive-desktop-addpoem.png) |  ![screenshot](documentation/responsive-desktop-addpoem.png) |  ![screenshot](documentation/responsive-desktop-logout.png)  ![screenshot](documentation/responsive-desktop-contact.png) || Works as expected |
 
 ## Lighthouse Audit
@@ -190,10 +188,8 @@ Defensive programming was manually tested with the below user acceptance testing
 
 | Page | Expectation | Test | Result | Fix | Screenshot |
 | --- | --- | --- | --- | --- | --- |
-| Home | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature01.png) |
 | View Poem | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature01.2.png) |
+| | Feature is expected to do open poem when clicking on a chosen one | Tested the feature by doing clicking on poem | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature01.png)![screenshot](documentation/feature01.2.png) |
 | Registrate | | | | | |
 | | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature02.png) |
 | Login | | | | | |
@@ -211,23 +207,20 @@ OR
 
 ## User Story Testing
 
-Testing user stories is actually quite simple, once you've already got the stories defined on your README.
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
-
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.png) |
-| repeat for all remaining user stories | x |
+| As a new site user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/feature01.png) ![screenshot](documentation/feature01.2.png) |
+| As a new site user, I would like to registrate as user, so that I can share poems on the site. | ![screenshot](documentation/feature02.png) |
+| As a returning user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/feature01.png) ![screenshot](documentation/feature01.2.png) |
+| As a returning site user, I would like to login, so that I can share poems. | ![screenshot](documentation/feature03.png) |
+| As a returning site user, I would like to add poems, so that I can share my poems. | ![screenshot](documentation/feature05.png) |
+| As a returning site user, I would like to edit my poems, so that I can correct spellings or improve my text. | ![screenshot](documentation/feature05.2.png) |
+| As a returning site user, I would like to delete poems, so that I can secure posting my poem. | ![screenshot](documentation/feature05.3.png) |
+| As a returning site user, I would like to logout, so that I can feel calm and secure. | ![screenshot](documentation/feature04.png) |
+| As a site administrator, I should be able to add poems, so that I can share poems. | ![screenshot](documentation/feature07.png) |
+| As a site administrator, I should be able to edit poems, so that I can correct spelling or improve text. | ![screenshot](documentation/feature08.png) |
+| As a site administrator, I should be able to delete poems, so that I can keep the site as I want. | ![screenshot](documentation/feature09.png) |
+
 
 ## Automated Testing
 
@@ -288,6 +281,12 @@ Remember to include screenshots (where possible), and a solution to the issue (i
 This can be used for both "fixed" and "unresolved" issues.
 
 ## Bugs
+
+- Python `'ModuleNotFoundError'` when trying to import module from imported package
+
+    ![screenshot](documentation/bug03.png)
+
+    - To fix this, I _____________________.
 
 - Python `'ModuleNotFoundError'` when trying to import module from imported package
 

@@ -2,15 +2,13 @@
 
 Return back to the [README.md](README.md) file.
 
-I have tested Poetic Society through
+All features of Poetic Society have been tested through:
 - Code validation of HTML, CSS, Python
 - Browser compatability in Chrome, Safari/ Firefox and Opera
 - Responsiveness on mobile, tablet and desktop
 - Lighthouse
 - Defensive programming
 -  User stories
-
-... within all features which are the homepage, view poem, registrate, login & logout and add poem.
 
 ## Code Validation
 
@@ -22,12 +20,15 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-home.png) | Pass: No Errors |
-| View Poem | [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-viewpoem.png) | Pass: No Errors |
-| Registrate | [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-registrate.png) | Pass: No Errors 
-| Login | [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-login.png) | Pass: No Errors |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/) | ![screenshot](documentation/html-validation-home.png) | Pass: No Errors |
+| View Poem | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/view_poem/2) | ![screenshot](documentation/html-validation-viewpoem.png) | Pass: No Errors |
+| Registrate | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/accounts/signup/) | ![screenshot](documentation/html-validation-registrate.png) | Pass: No Errors 
+| Login | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/accounts/login/) | ![screenshot](documentation/html-validation-login.png) | Pass: No Errors |
 | Add Poem | [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-addpoem.png) | Pass: No Errors |
 | Logout |  [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-logout.png) | Pass: No Errors |
+| Contact |  [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/contact) | ![screenshot](documentation/html-validation-logout.png) | Pass: No Errors |
+
+ADD POEM + LOGOUT
 
 ### CSS
 
@@ -35,7 +36,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Filswh.github.io%2Fpoetic-society) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpoetic-society-f2599d0af047.herokuapp.com) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
 
 ### Python
 

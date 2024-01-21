@@ -28,7 +28,6 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Logout |  [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-logout.png) | Pass: No Errors |
 | Contact |  [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/contact) | ![screenshot](documentation/html-contact.png) | Pass: No Errors |
 
-ADD POEM + LOGOUT
 
 ### CSS
 
@@ -100,9 +99,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Defensive Programming
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-Defensive programming (defensive design) is extremely important!
-When building projects that accept user inputs or forms, you should always test the level of security for each.
 Examples of this could include (not limited to):
 Forms:
 - Users cannot submit an empty form
@@ -116,20 +112,6 @@ MS3 (Flask) | MS4/PP4/PP5 (Django):
 - User-A should not be able to manipulate data belonging to User-B, or vice versa
 - Non-Authenticated users should not be able to access pages that require authentication
 - Standard users should not be able to access pages intended for superusers
-You'll want to test all functionality on your application, whether it's a standard form,
-or uses CRUD functionality for data manipulation on a database.
-Make sure to include the `required` attribute on any form-fields that should be mandatory.
-Try to access various pages on your site as different user types (User-A, User-B, guest user, admin, superuser).
-You should include any manual tests performed, and the expected results/outcome.
-Testing should be replicable.
-Ideally, tests cases should focus on each individual section of every page on the website.
-Each test case should be specific, objective, and step-wise replicable.
-Instead of adding a general overview saying that everything works fine,
-consider documenting tests on each element of the page
-(ie. button clicks, input box validation, navigation links, etc.) by testing them in their happy flow,
-and also the bad/exception flow, mentioning the expected and observed results,
-and drawing a parallel between them where applicable.
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 Defensive programming was manually tested with the below user acceptance testing:
 
@@ -170,14 +152,14 @@ OR
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/feature01.png) ![screenshot](documentation/feature01.2.png) |
-| As a new site user, I would like to registrate as user, so that I can share poems on the site. | ![screenshot](documentation/feature02.png) |
-| As a returning user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/feature01.png) ![screenshot](documentation/feature01.2.png) |
-| As a returning site user, I would like to login, so that I can share poems. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to add poems, so that I can share my poems. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to edit my poems, so that I can correct spellings or improve my text. | ![screenshot](documentation/feature05.2.png) |
-| As a returning site user, I would like to delete poems, so that I can secure posting my poem. | ![screenshot](documentation/feature05.3.png) |
-| As a returning site user, I would like to logout, so that I can feel calm and secure. | ![screenshot](documentation/feature04.png) |
+| As a new site user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/home.png) ![screenshot](documentation/viewpoem-success.png.png) |
+| As a new site user, I would like to registrate as user, so that I can share poems on the site. | ![screenshot](documentation/register.png) ![screenshot](documentation/register-success.png |
+| As a returning user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/home.png) ![screenshot](documentation/viewpoem-success.png.png) |
+| As a returning site user, I would like to login, so that I can share poems. | ![screenshot](documentation/login.png)![screenshot](documentation/login-success.png) |
+| As a returning site user, I would like to add poems, so that I can share my poems. | ![screenshot](documentation/addpoem.png)![screenshot](documentation/addpoem-success.png) |
+| As a returning site user, I would like to edit my poems, so that I can correct spellings or improve my text. | ![screenshot](documentation/editpoem.png)![screenshot](documentation/editpoem-success.png) |
+| As a returning site user, I would like to delete poems, so that I can secure posting my poem. | ![screenshot](documentation/deletepoem.png)![screenshot](documentation/deletepoem-success.png) |
+| As a returning site user, I would like to logout, so that I can feel calm and secure. | ![screenshot](documentation/logout.png)![screenshot](documentation/logout-success.png) |
 | As a site administrator, I should be able to add poems, so that I can share poems. | ![screenshot](documentation/feature07.png) |
 | As a site administrator, I should be able to edit poems, so that I can correct spelling or improve text. | ![screenshot](documentation/feature08.png) |
 | As a site administrator, I should be able to delete poems, so that I can keep the site as I want. | ![screenshot](documentation/feature09.png) |

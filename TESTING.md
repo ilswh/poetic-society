@@ -75,19 +75,19 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/manage.py) | ![screenshot](documentation/py-validation-manage.png) | Pass: No Errors |
-| main-settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/main/settings.py/) | ![screenshot](documentation/py-validation-mainsettings.png) | Pass: No Errors |
-| main-urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/main/urls.py) | ![screenshot](documentation/py-validation-mainurls.png) | Pass: No Errors |
-| contact-admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/admin.py) | ![screenshot](documentation/py-validation-contactadmin.png) | Pass: No Errors |
-|contact-forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/forms.py) | ![screenshot](documentation/py-validation-contactforms.png) | Pass: No Errors |
-|contact-models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/models.py) | ![screenshot](documentation/py-validation-contactmodels.png) | Pass: No Errors |
-|contact-urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/urls.py) | ![screenshot](documentation/py-validation-contacturls.png) | Pass: No Errors |
-|contact-views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/views.py) | ![screenshot](documentation/py-validation-contactviews.png) | Pass: No Errors |
-|poems-admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/admin.py) | ![screenshot](documentation/py-validation-poemsadmin.png) | Pass: No Errors |
-|poems-forms.py | [PEP8 CI]( https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/forms.py) | ![screenshot](documentation/py-validation-poemsforms.png) | Pass: No Errors |
-|poems-models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/models.py) | ![screenshot](documentation/py-validation-poemsmodels.png) | Pass: No Errors |
-|poems-urls.py | [PEP8 CI]( https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/urls.py) | ![screenshot](documentation/py-validation-poemsurls.png) | Pass: No Errors |
-|poems-views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/views.py) | ![screenshot](documentation/py-validation-poemsviews.png) | Pass: No Errors |
+| manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/manage.py) | ![screenshot](documentation/python-mainmanage.png) | Pass: No Errors |
+| main-settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/main/settings.py/) | ![screenshot](documentation/python-mainsettings.png) | Pass: No Errors |
+| main-urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/main/urls.py) | ![screenshot](documentation/python-mainurls.png) | Pass: No Errors |
+| contact-admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/admin.py) | ![screenshot](documentation/python-contactadmin.png) | Pass: No Errors |
+|contact-forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/forms.py) | ![screenshot](documentation/python-contactforms.png) | Pass: No Errors |
+|contact-models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/models.py) | ![screenshot](documentation/python-contactmodels.png) | Pass: No Errors |
+|contact-urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/urls.py) | ![screenshot](documentation/python-contacturls.png) | Pass: No Errors |
+|contact-views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/contact/views.py) | ![screenshot](documentation/python-contactviews.png) | Pass: No Errors |
+|poems-admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/admin.py) | ![screenshot](documentation/python-poemsadmin.png) | Pass: No Errors |
+|poems-forms.py | [PEP8 CI]( https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/forms.py) | ![screenshot](documentation/python-poemsforms.png) | Pass: No Errors |
+|poems-models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/models.py) | ![screenshot](documentation/python-poemsmodels.png) | Pass: No Errors |
+|poems-urls.py | [PEP8 CI]( https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/urls.py) | ![screenshot](documentation/python-poemsurls.png) | Pass: No Errors |
+|poems-views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/views.py) | ![screenshot](documentation/python-poemsviews.png) | Pass: No Errors |
 
 🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 **IMPORTANT**: Django settings.py

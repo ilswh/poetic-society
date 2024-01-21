@@ -4,7 +4,7 @@ Return back to the [README.md](README.md) file.
 
 All features of Poetic Society have been tested through:
 - Code validation of HTML, CSS, Python
-- Browser compatability in Chrome, Safari/ Firefox and Opera
+- Browser compatability in Chrome, Firefox and Opera
 - Responsiveness on mobile, tablet and desktop
 - Lighthouse
 - Defensive programming

@@ -189,17 +189,29 @@ Defensive programming was manually tested with the below user acceptance testing
 | Page | Expectation | Test | Result | Fix | Screenshot |
 | --- | --- | --- | --- | --- | --- |
 | View Poem | | | | | |
-| | Feature is expected to do open poem when clicking on a chosen one | Tested the feature by doing clicking on poem | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature01.png)![screenshot](documentation/feature01.2.png) |
-| Registrate | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature02.png) |
+| | Feature is expected to open poem when clicking on a chosen one | Tested the feature by doing clicking on poem | The feature behaved as expected, and it did open the clicked poem | Test concluded and passed | ![screenshot](documentation/home.png)![screenshot](documentation/viewpoem-success.png) |
+| Register | | | | | |
+| | Feature is expected to do open a registration form when the user clicks on register in the nav-bar  | Tested the feature by clicking on register in the nav-bar | The feature behaved as expected, and it did open the form | Test concluded and passed | ![screenshot](documentation/register.png) |
+| | Feature is expected to registrate a new member and log in when the user fills in their chosen username, password and email | Tested the feature by filling in information | The feature behaved as expected, and successfully logged in as user | Test concluded and passed | ![screenshot](documentation/register-success.png) |
 | Login | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature03.png) |
+| | Feature is expected to do open a login form when the user clicks on login in the nav-bar  | Tested the feature by clicking on login in the nav-bar | The feature behaved as expected, and it did open a form | Test concluded and passed | ![screenshot](documentation/login.png) |
+| | Feature is expected to login when the user fills in username, password and clicks on signin | Tested the feature by doing filling in the information and clicking sign in | The feature behaved as expected, and it successfully logged in user | Test concluded and passed | ![screenshot](documentation/login-success.png) |
 | Add Poem | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature05.png) |
+| | Feature is expected to do open a form to add a poem when the registered user clicks on add poem in the nav-bar  | Tested the feature by clicking on contact in the nav-bar | The feature behaved as expected, and it did open a form | Test concluded and passed | ![screenshot](documentation/addpoem.png) |
+| | Feature is expected to add a poem to the site when user fills in a title, poem and clicks on add poem | Tested the feature by doing filling in information and clicking add poem | The feature behaved as expected, and it did add the poem | Test concluded and passed | ![screenshot](documentation/addpoem-success.png) |
+| Edit Poem | | | | | |
+| | Feature is expected to do open a form to edit poem when the registered user clicks on edit poem on one of their poems | Tested the feature by clicking on edit poem on logged in users added poem | The feature behaved as expected, and it did open the form | Test concluded and passed | ![screenshot](documentation/editpoem.png) |
+| | Feature is expected to show the edited poem to the site when user changes the title or poem and clicks on edit poem | Tested the feature by doing filling in information and clicking edit poem | The feature behaved as expected, and it did add the poem | Test concluded and passed | ![screenshot](documentation/editpoem-success.png) |
+| Delete Poem | | | | | |
+| | Feature is expected to do open a popup which says "Are you sure you want to delete this poem?" with the options "Yes" and "No" when the registered user clicks on delete poem on one of their poems | Tested the feature by clicking on "Delete Poem" on logged in users added poem | The feature behaved as expected, and it did open the form | Test concluded and passed | ![screenshot](documentation/deletepoem.png) |
+| | Feature is expected to not delete the poem when the user clicks "No" and go back to viewing the poem | Tested the feature by doing clicking on no | The feature behaved as expected, and it did not delete the poem and went back to viewing the poem when user chose "No" | Test concluded and passed | ![screenshot](documentation/deletepoem-no.png) |
+| | Feature is expected to delete the poem when the user clicks "Yes" | Tested the feature by doing clicking on "Yes" | The feature behaved as expected, and it did logout when user chose "Yes" | Test concluded and passed | ![screenshot](documentation/deletepoem-success.png) |
 | Logout | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature04.png) |
+| | Feature is expected to do open a logout page when the user clicks on logout in the nav-bar  | Tested the feature by clicking on logout in the nav-bar | The feature behaved as expected, and it did open the page for the logout procedure | Test concluded and passed | ![screenshot](documentation/logout.png) |
+| | Feature is expected to logout and show the message "You Have Signed Out." when the user clicks "Sign Out" | Tested the feature by doing clicking on "Sign Out" | The feature behaved as expected, and it did logout and show the message when user clicked "Sign Out" | Test concluded and passed | ![screenshot](documentation/logout-success.png) |
 | Contact | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature06.png) |
+| | Feature is expected to do open a contact form when the user clicks on contact in the nav-bar  | Tested the feature by clicking on contact in the nav-bar | The feature behaved as expected, and it did open a form | Test concluded and passed | ![screenshot](documentation/contact.png) |
+| | Feature is expected to say "Thank for the message!" when the user has filled in the boxes of name, email, message  | Tested the feature by clicking on contact in the nav-bar | The feature behaved as expected, and it did say "Thank for the message!" | Test concluded and passed | ![screenshot](documentation/contact-success.png) |
 
 OR
 

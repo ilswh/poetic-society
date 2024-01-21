@@ -20,13 +20,13 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/) | ![screenshot](documentation/html-validation-home.png) | Pass: No Errors |
-| View Poem | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/view_poem/2) | ![screenshot](documentation/html-validation-viewpoem.png) | Pass: No Errors |
-| Registrate | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/accounts/signup/) | ![screenshot](documentation/html-validation-registrate.png) | Pass: No Errors 
-| Login | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/accounts/login/) | ![screenshot](documentation/html-validation-login.png) | Pass: No Errors |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/) | ![screenshot](documentation/html-home.png) | Pass: No Errors |
+| View Poem | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/view_poem/2) | ![screenshot](documentation/html-viewpoem.png) | Pass: No Errors |
+| Register | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/accounts/signup/) | ![screenshot](documentation/html-register.png) | See under bugss 
+| Login | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/accounts/login/) | ![screenshot](documentation/html-login.png) | Pass: No Errors |
 | Add Poem | [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-addpoem.png) | Pass: No Errors |
 | Logout |  [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-logout.png) | Pass: No Errors |
-| Contact |  [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/contact) | ![screenshot](documentation/html-validation-logout.png) | Pass: No Errors |
+| Contact |  [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/contact) | ![screenshot](documentation/html-contact.png) | Pass: No Errors |
 
 ADD POEM + LOGOUT
 

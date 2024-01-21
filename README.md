@@ -117,42 +117,42 @@ Poetic Society has five existing features all listed below and four future featu
 
     - When arriving at the site, you can view titles of poems and click on the one you want to read.
 
-![screenshot](documentation/feature01.png)
-![screenshot](documentation/feature01.2.png)
+![screenshot](documentation/home.png)
+![screenshot](documentation/viewpoem-success.png)
 
 - **Registrate**
 
     - In order to share a poem you can registrate as a member.
 
-![screenshot](documentation/feature02.png)
+![screenshot](documentation/register.png)
 
 - **Login & logout**
 
     - Every member can choose to login and logout through the nav-bar.
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/login.png)
 
-![screenshot](documentation/feature04.png)
+![screenshot](documentation/logout.png)
 
 - **Add poem**
 
     - In the nav-bar you can click on add poem and share a poem.
 
-![screenshot](documentation/feature05.png)
+![screenshot](documentation/addpoem.png)
 
 - **Edit and delete poem**
 
     - Every member that has shared a poem, can edit and delete their poem.
 
-![screenshot](documentation/feature05.2.png)
-![screenshot](documentation/feature05.3.png)
+![screenshot](documentation/editpoem.png)
+![screenshot](documentation/deletepoem.png)
 
 
 - **Contact**
 
     - If you have anything to say to the site owner, there is a option to contact in the nav-bar.
 
-![screenshot](documentation/feature06.png)
+![screenshot](documentation/contact.png)
 
 
 ### Future Features

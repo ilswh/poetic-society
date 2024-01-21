@@ -70,19 +70,19 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Home | View Poem | Registrate | Login | Add Poem | Logout | Contact | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-chrome-home.png) | ![screenshot](documentation/browser-chrome-viewpoem.png) | ![screenshot](documentation/browser-chrome-registrate.png) | ![screenshot](documentation/browser-chrome-login.png) | ![screenshot](documentation/browser-chrome-addpoem.png) |  ![screenshot](documentation/browser-chrome-logout.png) |  ![screenshot](documentation/browser-chrome-contact.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-firefox-home.png) | ![screenshot](documentation/browser-firefox-viewpoem.png) | ![screenshot](documentation/browser-firefox-registrate.png) | ![screenshot](documentation/browser-firefox-login.png) | ![screenshot](documentation/browser-firefox-addpoem.png) |  ![screenshot](documentation/browser-firefox-logout.png) |  ![screenshot](documentation/browser-firefox-contact.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera-home.png) | ![screenshot](documentation/browser-opera-viewpoem.png) | ![screenshot](documentation/browser-opera-registrate.png) | ![screenshot](documentation/browser-opera-login.png) | ![screenshot](documentation/browser-opera-addpoem.png) |  ![screenshot](documentation/browser-opera-logout.png) |  ![screenshot](documentation/browser-opera-contact.png) | Works as expected |
+| Chrome | ![screenshot](documentation/chrome-home.png) | ![screenshot](documentation/chrome-viewpoem.png) | ![screenshot](documentation/chrome-register.png) | ![screenshot](documentation/chrome-login.png) | ![screenshot](documentation/chrome-addpoem.png) |  ![screenshot](documentation/chrome-logout.png) |  ![screenshot](documentation/chrome-contact.png) | Works as expected |
+| Firefox | ![screenshot](documentation/firefox-home.png) | ![screenshot](documentation/firefox-viewpoem.png) | ![screenshot](documentation/firefox-register.png) | ![screenshot](documentation/firefox-login.png) | ![screenshot](documentation/firefox-addpoem.png) |  ![screenshot](documentation/firefox-logout.png) |  ![screenshot](documentation/firefox-contact.png) | Works as expected |
+| Opera | ![screenshot](documentation/opera-home.png) | ![screenshot](documentation/opera-viewpoem.png) | ![screenshot](documentation/opera-registrate.png) | ![screenshot](documentation/opera-login.png) | ![screenshot](documentation/opera-addpoem.png) |  ![screenshot](documentation/opera-logout.png) |  ![screenshot](documentation/opera-contact.png) | Works as expected |
 
 ## Responsiveness
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | View Poem | Registrate | Login | Add Poem | Logout | Contact | Notes |
+| Device | Home | View Poem | Register | Login | Add Poem | Logout | Contact | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-viewpoem.png) | ![screenshot](documentation/responsive-mobile-registrate.png) | ![screenshot](documentation/responsive-mobile-login.png) |  ![screenshot](documentation/responsive-mobile-addpoem.png) |  ![screenshot](documentation/responsive-mobile-addpoem.png) |  ![screenshot](documentation/responsive-mobile-logout.png)  ![screenshot](documentation/responsive-mobile-contact.png) || Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-viewpoem.png) | ![screenshot](documentation/responsive-tablet-registrate.png) | ![screenshot](documentation/responsive-tablet-login.png) |  ![screenshot](documentation/responsive-tablet-addpoem.png) |  ![screenshot](documentation/responsive-tablet-addpoem.png) |  ![screenshot](documentation/responsive-tablet-logout.png)  ![screenshot](documentation/responsive-tablet-contact.png) || Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-viewpoem.png) | ![screenshot](documentation/responsive-desktop-registrate.png) | ![screenshot](documentation/responsive-desktop-login.png) |  ![screenshot](documentation/responsive-desktop-addpoem.png) |  ![screenshot](documentation/responsive-desktop-addpoem.png) |  ![screenshot](documentation/responsive-desktop-logout.png)  ![screenshot](documentation/responsive-desktop-contact.png) || Works as expected |
+| Mobile (DevTools) | ![screenshot](documentation/mobile-home.png) | ![screenshot](documentation/mobile-viewpoem.png) | ![screenshot](documentation/mobile-register.png) | ![screenshot](documentation/mobile-login.png) |  ![screenshot](documentation/mobile-addpoem.png) |  ![screenshot](documentation/mobile-logout.png) | ![screenshot](documentation/mobile-contact.png) || Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/tablet-home.png) | ![screenshot](documentation/tablet-viewpoem.png) | ![screenshot](documentation/tablet-register.png) | ![screenshot](documentation/tablet-login.png) |  ![screenshot](documentation/tablet-addpoem.png) |  ![screenshot](documentation/tablet-logout.png) | ![screenshot](documentation/tablet-contact.png) || Works as expected |
+| Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-viewpoem.png) | ![screenshot](documentation/responsive-desktop-register.png) | ![screenshot](documentation/responsive-desktop-login.png) |  ![screenshot](documentation/responsive-desktop-addpoem.png) | ![screenshot](documentation/responsive-desktop-logout.png) | ![screenshot](documentation/responsive-desktop-contact.png) || Works as expected |
 
 ## Lighthouse Audit
 
@@ -92,7 +92,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse-home-desktop.png) | Some minor warnings |
 | View Poem | ![screenshot](documentation/lighthouse-viewpoem--mobile.png) | ![screenshot](documentation/lighthouse-viewpoem--desktop.png) | Some minor warnings |
-| Registrate | ![screenshot](documentation/lighthouse-registrate-mobile.png) | ![screenshot](documentation/lighthouse-registrate-desktop.png) | Slow response time due to large images |
+| Register | ![screenshot](documentation/lighthouse-registrate-mobile.png) | ![screenshot](documentation/lighthouse-registrate-desktop.png) | Slow response time due to large images |
 | Login | ![screenshot](documentation/lighthouse-login-mobile.png) | ![screenshot](documentation/lighthouse-login-desktop.png) | Slow response time due to large images |
 | Add Poem | ![screenshot](documentation/lighthouse-addpoem-mobile.png) | ![screenshot](documentation/lighthouse-addpoem.desktop.png) | Slow response time due to large images |
 | Logout | ![screenshot](documentation/lighthouse-logout-mobile.png) | ![screenshot](documentation/lighthouse-logout-desktop.png) | Slow response time due to large images |
@@ -152,9 +152,9 @@ OR
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/home.png) ![screenshot](documentation/viewpoem-success.png.png) |
-| As a new site user, I would like to registrate as user, so that I can share poems on the site. | ![screenshot](documentation/register.png) ![screenshot](documentation/register-success.png |
-| As a returning user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/home.png) ![screenshot](documentation/viewpoem-success.png.png) |
+| As a new site user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/home.png) ![screenshot](documentation/viewpoem-success.png) |
+| As a new site user, I would like to registrate as user, so that I can share poems on the site. | ![screenshot](documentation/register.png) ![screenshot](documentation/register-success.png) |
+| As a returning user, I would like to view poems, so that I can enjoy poetry. | ![screenshot](documentation/home.png) ![screenshot](documentation/viewpoem-success.png) |
 | As a returning site user, I would like to login, so that I can share poems. | ![screenshot](documentation/login.png)![screenshot](documentation/login-success.png) |
 | As a returning site user, I would like to add poems, so that I can share my poems. | ![screenshot](documentation/addpoem.png)![screenshot](documentation/addpoem-success.png) |
 | As a returning site user, I would like to edit my poems, so that I can correct spellings or improve my text. | ![screenshot](documentation/editpoem.png)![screenshot](documentation/editpoem-success.png) |

@@ -36,7 +36,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpoetic-society-f2599d0af047.herokuapp.com) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpoetic-society-f2599d0af047.herokuapp.com) | ![screenshot](documentation/css-validation.png) | See under bugs |
 
 ### Python
 

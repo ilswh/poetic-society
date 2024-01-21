@@ -24,8 +24,6 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | View Poem | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/view_poem/2) | ![screenshot](documentation/html-viewpoem.png) | Pass: No Errors |
 | Register | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/accounts/signup/) | ![screenshot](documentation/html-register.png) | See under bugss 
 | Login | [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/accounts/login/) | ![screenshot](documentation/html-login.png) | Pass: No Errors |
-| Add Poem | [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-addpoem.png) | Pass: No Errors |
-| Logout |  [W3C](https://validator.w3.org/) | ![screenshot](documentation/html-validation-logout.png) | Pass: No Errors |
 | Contact |  [W3C](https://validator.w3.org/nu/?doc=https://poetic-society-f2599d0af047.herokuapp.com/contact) | ![screenshot](documentation/html-contact.png) | Pass: No Errors |
 
 
@@ -90,12 +88,12 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse-home-desktop.png) | Some minor warnings |
-| View Poem | ![screenshot](documentation/lighthouse-viewpoem--mobile.png) | ![screenshot](documentation/lighthouse-viewpoem--desktop.png) | Some minor warnings |
-| Register | ![screenshot](documentation/lighthouse-registrate-mobile.png) | ![screenshot](documentation/lighthouse-registrate-desktop.png) | Slow response time due to large images |
-| Login | ![screenshot](documentation/lighthouse-login-mobile.png) | ![screenshot](documentation/lighthouse-login-desktop.png) | Slow response time due to large images |
-| Add Poem | ![screenshot](documentation/lighthouse-addpoem-mobile.png) | ![screenshot](documentation/lighthouse-addpoem.desktop.png) | Slow response time due to large images |
-| Logout | ![screenshot](documentation/lighthouse-logout-mobile.png) | ![screenshot](documentation/lighthouse-logout-desktop.png) | Slow response time due to large images |
+| Home | ![screenshot](documentation/lighthouse-mobile-home.png) | ![screenshot](documentation/lighthouse-desktop-home.png) | Some minor warnings |
+| View Poem | ![screenshot](documentation/lighthouse-mobile-viewpoem.png) | ![screenshot](documentation/lighthouse-desktop-viewpoem.png) | Some minor warnings |
+| Register | ![screenshot](documentation/lighthouse-mobile-register.png) | ![screenshot](documentation/lighthouse-desktop-register.png) | Some minor warnings |
+| Login | ![screenshot](documentation/lighthouse-mobile-login.png) | ![screenshot](documentation/lighthouse-desktop-login.png) | Some minor warnings |
+| Add Poem | ![screenshot](documentation/lighthouse-mobile-addpoem.png) | ![screenshot](documentation/lighthouse-desktop-addpoem.png) | Some minor warnings |
+| Logout | ![screenshot](documentation/lighthouse-mobile-logout.png) | ![screenshot](documentation/lighthouse-desktop-logout.png) | Some minor warnings |
 
 ## Defensive Programming
 

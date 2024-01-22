@@ -164,9 +164,6 @@ Readme and testing are written in Markdown.
 
 ## Database Design
 
-Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
-Understanding the relationships between different tables can save time later in the project.
-A couple recommendations for building free ERDs:
 - [Draw.io](https://draw.io)
 - [Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning)
 

@@ -33,7 +33,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpoetic-society-f2599d0af047.herokuapp.com) | ![screenshot](documentation/css-validation.png) | See under bugs |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpoetic-society-f2599d0af047.herokuapp.com) | ![screenshot](documentation/css-validation.png) | Bootstrap |
 
 ### Python
 
@@ -277,6 +277,6 @@ Any remaining open issues can be tracked [here](https://github.com/ilswh/poetic-
 
     ![screenshot](documentation/css-validation.png)
 
-    - I have not yet attempted to fix this.
+    - I have not yet attempted to fix this because it is bootstrap.
 
 There are no remaining bugs that I am aware of.

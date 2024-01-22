@@ -217,45 +217,34 @@ Below are the results from the various apps on my application that I've tested:
 
 #### Unit Test Issues
 
-Use this section to list any known issues you ran into while writing your unit tests.
-Remember to include screenshots (where possible), and a solution to the issue (if known).
-This can be used for both "fixed" and "unresolved" issues.
-
 ## Bugs
 
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
+-  `'include is not defined'` when trying to runserver.
 
-    ![screenshot](documentation/bug03.png)
+    ![screenshot](documentation/bug-2.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I made the code shorter and easier for me to comprehend.
 
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
+      ![screenshot](documentation/bug-2-fix.png)
 
-    ![screenshot](documentation/bug03.png)
+-  `missing destination file operand` after message
 
-    - To fix this, I _____________________.
+    ![screenshot](documentation/bug-3.png)
 
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
+    - To fix this, I added the name destination file.
 
-    ![screenshot](documentation/bug04.png)
+-  `CSRF verification failed` 
 
-    - To fix this, I _____________________.
+    ![screenshot](documentation/bug-5.png)
 
-- Python `E501 line too long` (93 > 79 characters)
+    - To fix this, I added the gitpod link to trusted origins in settings.py
 
-    ![screenshot](documentation/bug04.png)
+    ![screenshot](documentation/bug-05-fix.png)
 
-    - To fix this, I _____________________.
 
 ### GitHub **Issues**
 
 https://github.com/ilswh/poetic-society/issues
-Issues allow you to directly paste screenshots into the issue without having to first save the screenshot locally,
-then uploading into your project.
-You can add labels to your issues (`bug`), assign yourself as the owner, and add comments/updates as you progress with fixing the issue(s).
-Once you've sorted the issue, you should then "Close" it.
-
-When showcasing your bug tracking for assessment, you can use the following format:
 
 **Fixed Bugs**
 
@@ -263,8 +252,9 @@ All previously closed/fixed bugs can be tracked [here](https://github.com/ilswh/
 
 | Bug | Status |
 | --- | --- |
-| [Python `'ModuleNotFoundError'` when trying to import module from imported package](https://github.com/ilswh/poetic-society/issues/2) | Closed |
-| [Django `TemplateDoesNotExist` at /appname/path appname/template_name.html](https://github.com/ilswh/poetic-society/issues/3) | Closed |
+| [`include is not defined` when trying to runserver.](https://github.com/ilswh/poetic-society/issues/11) | Closed |
+| [`missing destination file operand` after message](https://github.com/ilswh/poetic-society/issues/12) | Closed |
+| [`CSRF verification failed`](https://github.com/ilswh/poetic-society/issues/13) | Closed |
 
 **Open Issues**
 
@@ -272,24 +262,21 @@ Any remaining open issues can be tracked [here](https://github.com/ilswh/poetic-
 
 | Bug | Status |
 | --- | --- |
-| [JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).](https://github.com/ilswh/poetic-society/issues/4) | Open |
-| [Python `E501 line too long` (93 > 79 characters)](https://github.com/ilswh/poetic-society/issues/5) | Open |
+| [register.html valdidation failed](https://github.com/ilswh/poetic-society/issues/14) | Open |
+| [style.css valdidation failed](https://github.com/ilswh/poetic-society/issues/15) | Open |
 
 ## Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
+- Django-allauth has a known bug with the signup form. It adds <p> tags within another block element, and causes HTML validation errors from W3C:.
 
+    ![screenshot](documentation/bug-6.png)
 
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
+    - I have not yet attempted to fix this.
 
-    ![screenshot](documentation/unfixed-bug01.png)
+- Parse error.
 
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
+    ![screenshot](documentation/css-validation.png)
+
+    - I have not yet attempted to fix this.
 
 There are no remaining bugs that I am aware of.

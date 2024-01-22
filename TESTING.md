@@ -3,8 +3,8 @@
 Return back to the [README.md](README.md) file.
 
 All features of Poetic Society have been tested through:
-- Code validation of HTML, CSS, Python
-- Browser compatability in Chrome, Firefox and Opera
+- Code validation of HTML, CSS & Python
+- Browser compatability in Chrome, Firefox & Opera
 - Responsiveness on mobile, tablet and desktop
 - Lighthouse
 - Defensive programming
@@ -52,7 +52,7 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 |poems-admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/admin.py) | ![screenshot](documentation/python-poemsadmin.png) | Pass: No Errors |
 |poems-forms.py | [PEP8 CI]( https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/forms.py) | ![screenshot](documentation/python-poemsforms.png) | Pass: No Errors |
 |poems-models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/models.py) | ![screenshot](documentation/python-poemsmodels.png) | Pass: No Errors |
-|poems-urls.py | [PEP8 CI]( https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/urls.py) | ![screenshot](documentation/python-poemsurls.png) | Pass: No Errors |
+|poems-urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/urls.py) | ![screenshot](documentation/python-poemsurls.png) | Pass: No Errors |
 |poems-views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/ilswh/poetic-society/main/poems/views.py) | ![screenshot](documentation/python-poemsviews.png) | Pass: No Errors |
 
 
@@ -97,11 +97,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Defensive Programming
 
-PP3 (Python-only):
-- Users must enter a valid letter/word/string when prompted
-MS3 (Flask) | MS4/PP4/PP5 (Django):
-- Standard users should not be able to access pages intended for superusers
-
 Defensive programming was manually tested with the below user acceptance testing:
 
 | Page | Expectation | Test | Result | Fix | Screenshot |
@@ -132,10 +127,10 @@ Defensive programming was manually tested with the below user acceptance testing
 | Contact | | | | | |
 | | Feature is expected to do open a contact form when the user clicks on contact in the nav-bar  | Tested the feature by clicking on contact in the nav-bar | The feature behaved as expected, and it did open a form | Test concluded and passed | ![screenshot](documentation/contact.png) |
 | | Feature is expected to say "Thank for the message!" when the user has filled in the boxes of name, email, message  | Tested the feature by clicking on contact in the nav-bar | The feature behaved as expected, and it did say "Thank for the message!" | Test concluded and passed | ![screenshot](documentation/contact-success.png) |
+| | Feature is expected to deny when user does not enter a proper emailadress  | Tested the feature by not adding an @ | The feature behaved as expected, and told the email adress should contain a @ | Test concluded and passed | ![screenshot](documentation/contact-contact-emailerror.png) |
+| Admin | | | | | |
+| | Feature is expected to deny unauthorised user access to admin-page  | Tested the feature by logging out then pasting admin in the end of the browser | The feature behaved as expected, and it did denied acccess | Test concluded and passed | ![screenshot](documentation/admin-accessdenied.png) |
 
-OR
-
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature0.png) |
 
 ## User Story Testing
 
@@ -149,9 +144,9 @@ OR
 | As a returning site user, I would like to edit my poems, so that I can correct spellings or improve my text. | ![screenshot](documentation/editpoem.png)![screenshot](documentation/editpoem-success.png) |
 | As a returning site user, I would like to delete poems, so that I can secure posting my poem. | ![screenshot](documentation/deletepoem.png)![screenshot](documentation/deletepoem-success.png) |
 | As a returning site user, I would like to logout, so that I can feel calm and secure. | ![screenshot](documentation/logout.png)![screenshot](documentation/logout-success.png) |
-| As a site administrator, I should be able to add poems, so that I can share poems. | ![screenshot](documentation/feature07.png) |
-| As a site administrator, I should be able to edit poems, so that I can correct spelling or improve text. | ![screenshot](documentation/feature08.png) |
-| As a site administrator, I should be able to delete poems, so that I can keep the site as I want. | ![screenshot](documentation/feature09.png) |
+| As a site administrator, I should be able to add poems, so that I can share poems. | ![screenshot](documentation/admin-addpoem.png) |
+| As a site administrator, I should be able to edit poems, so that I can correct spelling or improve text. | ![screenshot](documentation/admin-editdeletepoem.png) |
+| As a site administrator, I should be able to delete poems, so that I can keep the site as I want. | ![screenshot](documentation/admin-editdeletepoem.png) |
 
 
 ## Automated Testing

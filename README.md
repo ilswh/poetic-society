@@ -5,56 +5,22 @@ Poetic Society is a platform for humans to share their view of the world though 
 My hope is that poetic society will gather like-minded humans that enjoys writing and wants to share their expression with the world. 
 It will be useful for the target audience in the way that they get to share their experiences of their world in a space and be heard.
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://poetic-society-f2599d0af047.herokuapp.com
-![screenshot](documentation/mockup.png)
-
 ## UX
 
 My design process started by coding and as the code was finsihed I started looking into the design. 
+Therefor I unfortunatley don't have wireframes or ERDs.
 
 ### Colour Scheme
-
-I chose to use the following colors.
-
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
 
 I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
 
 ![screenshot](documentation/coolors.png)
 
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
-
 ### Typography
 
 I have chosen following fonts.
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Lato](https://fonts.google.com/specimen/Lato) with sans-serif as a fallback.
 
 ## User Stories
 
